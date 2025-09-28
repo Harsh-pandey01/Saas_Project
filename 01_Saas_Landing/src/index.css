@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary : #05071A;
+  --font-pop : "Poppins" , "sans" ;
+}
+
+input[type="radio"] {
+      appearance: none;
+      opacity: 0;
+      -webkit-appearance: none;
+      /*  For Webkit browsers like Chrome, Safari */
+      -moz-appearance: none;    /* For Mozilla Firefox */
+      width: 25px;
+      height: 25px;
+      /* Add other styling like border, background, border-radius as needed */
+      border: 2px solid #ccc;
+      border-radius: 50%; /* To make it circular */
+    }
