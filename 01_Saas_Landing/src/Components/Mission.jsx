@@ -1,7 +1,7 @@
 export default function Mission() {
   return (
-    <div className="max-w-310 py-10 mx-auto grid grid-cols-3 gap-10 ">
-      <div className="flex items-start justify-center flex-col">
+    <div className="max-w-310 px-10  py-10 mx-auto grid-cols-1 grid md:grid-cols-3 gap-10 ">
+      <div className="flex items-center md:items-start md:text-start text-center justify-center flex-col">
         <h1 className="text-3xl tracking-tight font-pop  font-semibold">
           We Help Transforms Your Business
         </h1>

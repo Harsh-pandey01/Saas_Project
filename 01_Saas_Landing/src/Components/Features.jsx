@@ -1,7 +1,12 @@
 export default function Features() {
   return (
-    <div className="max-w-310 mx-auto flex flex-col items-center">
-      <h1 className="text-5xl">How CloudPeak Works</h1>
+    <div
+      id="features"
+      className="max-w-310 px-5  mx-auto flex flex-col items-center"
+    >
+      <h1 className="text-3xl font-semibold font-pop  md:text-5xl">
+        How CloudPeak Works
+      </h1>
       <p className="py-5 font-pop text-sm text-white/70">
         Designed to Simplify Your Experience and Maximize the Benefits of
         CloudPeak's Innovative Features
@@ -9,15 +14,15 @@ export default function Features() {
 
       {/* grid  */}
 
-      <div className="w-full px-20 py-10">
-        <div className="w-full grid grid-cols-2 gap-15">
+      <div className="w-full  py-20">
+        <div className="w-full grid grid-cols-1 lg:px-10 md:grid-cols-2 gap-15">
           <div className="rounded-3xl  flex flex-col items-center gap-5 p-10 border-[1px] border-white/20 shadow-[inset_0_0_10px_1px_rgba(59,130,246,0.5)]">
             <img
               src="https://framerusercontent.com/images/uC5t2RyWcIiCzuVogtJEIyJrc.svg?width=343&height=240"
               alt=""
             />
-            <div className="text-center bg-blue-900/30 px-4 w-full rounded-lg py-4">
-              <h1 className="text-start font-pop text-3xl flex ">
+            <div className="flex flex-col items-start justify-center gap-5 md:gap-10">
+              <h1 className="text-2xl font-semibold md:font-normal md:text-5xl tracking-tight font-pop ">
                 25%{" "}
                 <span className="flex text-sm items-center ml-1">
                   <img
@@ -30,8 +35,8 @@ export default function Features() {
               </h1>
             </div>
           </div>
-          <div className="flex flex-col items-start justify-center gap-10">
-            <h1 className="text-5xl tracking-tight font-pop">
+          <div className="flex flex-col items-start justify-center gap-5 md:gap-10">
+            <h1 className="text-2xl font-semibold md:font-normal md:text-5xl tracking-tight font-pop">
               Effortless Onboarding Process Fast.
             </h1>
             <p className="font-pop text-white/70">
@@ -42,8 +47,8 @@ export default function Features() {
               Learn More
             </button>
           </div>
-          <div className="flex flex-col items-start justify-center gap-10">
-            <h1 className="text-5xl tracking-tight font-pop">
+          <div className="fflex flex-col items-start justify-center gap-5 md:gap-10">
+            <h1 className="text-2xl font-semibold md:font-normal md:text-5xl tracking-tight font-pop">
               Seamless Integration with Your Workflow.
             </h1>
             <p className="font-pop text-white/70">
@@ -82,8 +87,8 @@ export default function Features() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-start justify-center gap-10">
-            <h1 className="text-5xl tracking-tight font-pop">
+          <div className="flex flex-col items-start justify-center gap-5 md:gap-10">
+            <h1 className="text-2xl font-semibold md:font-normal md:text-5xl tracking-tight font-pop">
               Expert Guidance Every Step of the Way.
             </h1>
             <p className="font-pop text-white/70">

@@ -12,7 +12,7 @@ import Footer from "./Components/Footer";
 
 export default function App() {
   return (
-    <div className="dark:bg-white w-full min-h-screen px-2 ">
+    <div className="dark:bg-white w-full min-h-screen md:px-2 overflow-x-hidden">
       <div className="w-full relative h-fit min-h-screen bg-primary text-white">
         <Navbar />
         <Hero />

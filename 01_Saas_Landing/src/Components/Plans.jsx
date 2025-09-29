@@ -4,9 +4,11 @@ export default function Plans() {
   const [isMonthlySelected, setMonthly] = useState(true);
 
   return (
-    <div className="max-w-310 mx-auto py-15 ">
-      <h1 className="text-5xl font-pop text-center">Choose A Plan</h1>
-      <p className="text-white/70 font-pop text-center py-5">
+    <div className="max-w-310 px-2 md:px-2  mx-auto md:py-15 ">
+      <h1 className="text-3xl md:text-5xl font-semibold font-pop text-center">
+        Choose A Plan
+      </h1>
+      <p className="text-white/70 font-pop text-sm md:text-xl text-center py-5">
         Designed to Simplify Your Experience and Maximize the Benefits of
         CloudPeak's Innovative Features
       </p>
@@ -44,7 +46,7 @@ export default function Plans() {
         </div>
       </div>
 
-      <div className="px-20 mt-15 grid grid-cols-3 gap-10">
+      <div className="px-2 mt-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
         <div className="rounded-3xl p-10 border-[1px] border-white/20 shadow-[inset_0_0_10px_1px_rgba(59,130,246,0.5)]">
           <h1 className="text-xl font-pop">Basic</h1>
           <p className="text-white/70 font-pop">For solo designer</p>
